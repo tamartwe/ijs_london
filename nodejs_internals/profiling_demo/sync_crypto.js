@@ -1,5 +1,3 @@
-// const profiler = require('v8-profiler');
-// const fs = require('fs');
 const crypto = require('crypto');
 function hash(password) {
   const salt = crypto.randomBytes(128).toString('base64');

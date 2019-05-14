@@ -5,5 +5,6 @@ const addValues =
     return c;
 };
 
-addValues(2 , '2'); // 22
-addValues(2 , 2); // 4
+addValues(2 , '2');
+addValues(2 , 2);
+addValues(2);

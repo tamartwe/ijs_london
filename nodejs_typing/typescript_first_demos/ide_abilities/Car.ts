@@ -3,7 +3,7 @@ export default class Car {
     color: string;
     speed: number;
 
-    constructor(brand, color, speed) {
+    constructor(brand: string, color: string, speed: number) {
         this.brand = brand;
         this. color = color;
         this.speed = speed;

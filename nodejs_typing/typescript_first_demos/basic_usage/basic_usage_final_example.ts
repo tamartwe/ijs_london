@@ -4,6 +4,8 @@ const foo = {
     3: 'c'
 }
 
+console.log(Object.keys(foo));
+
 const sumOfKeys = Object.keys(foo).
 reduce((prev, curr) => {
     return prev + curr;

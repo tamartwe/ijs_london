@@ -1,3 +1,16 @@
+/*
+npm install typescript -s
+"scripts": {
+    "tsc": "tsc"
+}
+npm run tsc -- --init
+npm install express -s
+npm install @types/express -s
+npm run tsc
+*/
+
+
+
 // lib/app.ts
 import express = require('express');
 

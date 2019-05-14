@@ -1,4 +1,7 @@
 
+// method: "Facebook" | "LinkedIn"
+// | "Gmail", _username: string, _password: string
+
 const authenticate = (method: "Facebook" | "LinkedIn"
  | "Gmail", _username: string, _password: string) => {
  switch (method) {
@@ -11,6 +14,8 @@ const authenticate = (method: "Facebook" | "LinkedIn"
    case 'Gmail':
      // Do Gmail authentication
      break;
+   default:
+    //Do Something, Throw Error
  }
 };
 //Compilation error

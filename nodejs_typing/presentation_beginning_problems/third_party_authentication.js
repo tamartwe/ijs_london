@@ -2,15 +2,17 @@
 const authenticate = (method, username, password) => {
   switch (method) {
     case 'Facebook':
-      // do facebook authentocation
+      // do facebook authentication
       break;
     case 'LinkedIn':
-      // do linkedIn authentocation
+      // do linkedIn authentication
       break;
     case 'Gmail':
       // Do Gmail authentication
       break;
+    default:
+      // Throw Error
   }
 };
 // Switch case will not work
-authenticate('Fcebook', 'tamartwe', '1234');
+authenticate('Fcebook', 'johnSmith', '1234');
